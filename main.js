@@ -18,8 +18,8 @@ let tl = gsap.timeline({scrollTrigger:{
     pin: true,
    }
 })
-tl.from(".imgAndText img", {opacity: 0, x:"-100%", duration: 1})
-tl.from(".imgAndText .textBlock", {opacity: 0, x:"100%", duration: 1})
+tl.from(".block1 img", {opacity: 0, x:"-100%", duration: 1})
+tl.from(".block1 .textBlock", {opacity: 0, x:"100%", duration: 1})
 
 // gsap.from("#macScreen",  {scrollTrigger:{
 //     trigger:"#macbookSection",
