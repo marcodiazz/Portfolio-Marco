@@ -8,9 +8,24 @@ gsap.from("#description", {opacity:0, x:"100%", duration:1.5})
 // about me
 gsap.from("#aboutMe",  {scrollTrigger:{
     trigger:"#aboutMe",
-    start:"20% bottom",
-    scrub:1}
+    start:"center center",
+    scrub: true}
     , opacity:0, y:"-100%", duration:1})
+
+let tl = gsap.timeline({scrollTrigger:{
+    trigger:"#macbookSection",
+    start: "top top",
+    pin: true,
+   }
+})
+tl.from(".imgAndText img", {opacity: 0, x:"-100%", duration: 1})
+tl.from(".imgAndText .textBlock", {opacity: 0, x:"100%", duration: 1})
+
+// gsap.from("#macScreen",  {scrollTrigger:{
+//     trigger:"#macbookSection",
+//     start: "center center",
+//     pin: true,},
+//      opacity: 0, duration: 5})
 
 // knowledge
 gsap.from("#knowledge",  {scrollTrigger:{
