@@ -97,17 +97,17 @@ h2{
     align-items: center;
     text-align: center;
 }
-.colum{
+.column{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #macbookSection{
-    height: 140vh;
-    width: 100vw;
+    height: 130vh;
+    width: 99vw;
     z-index: 10;
-    position: relative;
+    /* position: relative; */
 }
 #macbookSection img{
     width: 99vw;
@@ -125,6 +125,9 @@ h2{
   align-items:flex-start;
   justify-content: center;
   margin-top: -100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  overflow-x: hidden;
  
 }
 .block1{
@@ -134,6 +137,15 @@ h2{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
+    scroll-snap-align: center;
+}
+.block1 h1{
+    font-size: 3rem;
+}
+
+.arrow{
+    margin-top: 1rem;
+    width: 6rem;
 }
 
 .img{
@@ -141,13 +153,15 @@ h2{
 }
 .textBlock{
     color: rgb(28, 28, 28);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border-radius: 20px;
     padding: 50px;
     background: #A2B2F5;
     width: 20vw;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     font-weight: 400;
+    text-align: justify;
+    text-justify: inter-word;
 
 }
 .textBlock h2{
@@ -155,16 +169,16 @@ h2{
     font-weight: 600;
     padding-bottom: 20px;
 }
-/* #aboutMeImg{
-    width: 90%;
-    border-radius: 0%;
-} */
+#aboutMe{
+    font-size: 13rem;
+    
+} 
 
 #knowledgeSection{
-    margin-top: 100vh;
+    margin-top: 50vh;
 }
 #knowledge{
-    font-size: 14.2rem;
+    font-size: 13rem;
 }
 #knowledgeImg{
     height: 75vh;
@@ -217,3 +231,51 @@ h2{
 .element:nth-child(4){
     background-color: rgb(99, 227, 44);
 } 
+
+/* EDUCATION */
+
+#education{
+    font-size: 14rem;
+
+}
+
+.studies{
+    width: 100%;
+    justify-content: space-evenly;
+    background: url('/img/esferasblur1.png') no-repeat left center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 100px;
+
+}
+
+.studies img{
+    width: 35vw;
+}
+
+.studies p{
+    width: 38vw;
+    font-size: 1.3rem;
+    text-align: justify;
+    text-justify: inter-word;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 30px;
+}
+
+.highlight1{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #A2B2F5;
+}
+.highlight2{
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #D88741;
+}
