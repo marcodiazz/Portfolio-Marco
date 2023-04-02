@@ -242,12 +242,12 @@ h2{
 .studies{
     width: 100%;
     justify-content: space-evenly;
-    background: url('/img/esferasblur1.png') no-repeat left center; 
+    background: url('/img/esferasblancas.png') no-repeat left center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 100px;
+    padding: 160px;
 
 }
 
@@ -260,11 +260,11 @@ h2{
     font-size: 1.3rem;
     text-align: justify;
     text-justify: inter-word;
-    background: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 10px );
+    background: rgba(153, 175, 201, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(156, 156, 156, 0.35);
+    backdrop-filter: blur( 6px );
     -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 30px;
 }
