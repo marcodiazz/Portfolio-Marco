@@ -255,16 +255,18 @@ h2{
     width: 35vw;
 }
 
-.studies p{
-    width: 38vw;
-    font-size: 1.3rem;
-    text-align: justify;
-    text-justify: inter-word;
+.glass{
     background: rgba(153, 175, 201, 0.1);
     box-shadow: 0 8px 32px 0 rgba(156, 156, 156, 0.35);
     backdrop-filter: blur( 6px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 20px;
+}
+.studies p{
+    width: 38vw;
+    font-size: 1.3rem;
+    text-align: justify;
+    text-justify: inter-word;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 30px;
 }
@@ -278,4 +280,39 @@ h2{
     font-weight: 500;
     font-size: 1.3rem;
     color: #D88741;
+}
+
+.swiper{
+    width: 50vw;
+    padding-block: 3rem;
+}
+
+.swiper-wrapper{
+    /* width: 50%; */
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.swiper-slide{
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background: #A2B2F5;
+    color: white;
+
+}
+
+.swiper-button-prev{
+    font-size: 3rem;
+    color: black;
+    cursor: pointer;
+
+}
+.swiper-button-next{
+    font-size: 3rem;
+    color: black;
+    cursor: pointer;
 }
