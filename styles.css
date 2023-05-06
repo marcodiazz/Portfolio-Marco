@@ -28,7 +28,7 @@ h2{
 }
 
 .title{
-    width: 90%;
+    width: 100%;
     margin-block: 10px;
     text-align: center;
 }
@@ -126,8 +126,9 @@ h2{
   justify-content: center;
   margin-top: -100vh;
   scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  /* overflow-y: scroll;
+  overflow-x: hidden; */
+  overflow: hidden;
  
 }
 .block1{
