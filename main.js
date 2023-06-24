@@ -41,3 +41,10 @@ gsap.from("#projectTitle",  {scrollTrigger:{
     start:"20% bottom",
     scrub:1}
     , opacity:0, y:"-100%", duration:1})
+
+// contact
+gsap.from("#contactTitle",  {scrollTrigger:{
+    trigger:"#contactTitle",
+    start:"20% bottom",
+    scrub:1}
+    , opacity:0, y:"-100%", duration:1})
