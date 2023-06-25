@@ -178,15 +178,20 @@ h2{
     padding-bottom: 20px;
 }
 #aboutMe{
-    font-size: 13rem;
-    
+    max-width: 100%;
+    /* font-size: 13rem; */
+    font-size: auto;
+    text-align: center;
 } 
 
 #knowledgeSection{
-    margin-top: 50vh;
+    margin-top: 35%;
 }
 #knowledge{
-    font-size: 13rem;
+    max-width: 100%;
+    /* font-size: 13rem; */
+    font-size: auto;
+    text-align: center;
 }
 #knowledgeImg{
     height: 75vh;
@@ -200,7 +205,11 @@ h2{
 
 .skills{
     width: 35%;
-    
+}
+
+.skills>h1{
+    color: #1c1c1c;
+    font-size: 6rem;
 }
 
 #frameworks{
