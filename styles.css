@@ -152,6 +152,7 @@ h2{
     align-items: center;
     margin-bottom: 5rem;
     scroll-snap-align: center;
+    
 }
 .block1 h1{
     width: 100%;
@@ -164,7 +165,7 @@ h2{
 }
 
 .img{
-    width: 25vw;
+    width: 25%;
     border-radius: 30px;
 }
 .textBlock{
