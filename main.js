@@ -38,7 +38,7 @@ gsap.from("#knowledge",  {scrollTrigger:{
 // Projects
 gsap.from("#projectTitle",  {scrollTrigger:{
     trigger:"#projectTitle",
-    start:"20% bottom",
+    start:"top bottom",
     scrub:1}
     , opacity:0, y:"-100%", duration:1})
 
@@ -48,3 +48,9 @@ gsap.from("#contactTitle",  {scrollTrigger:{
     start:"20% bottom",
     scrub:1}
     , opacity:0, y:"-100%", duration:1})
+
+gsap.from(".codeLine",  {scrollTrigger:{
+    trigger:".codeForm",
+    end:"-30% 0%",
+    scrub:1}
+    , opacity:0, x:"-150%", duration:1})
