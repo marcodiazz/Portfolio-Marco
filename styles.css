@@ -73,7 +73,8 @@ h2{
     font-size: 10rem;
     font-weight: 700;
     line-height: 100%;
-    -webkit-text-stroke: 1.5px #001427;
+    -webkit-text-stroke: 1.5px #A2B2F5;
+    /* text-shadow: 0 0 10px #A2B2F5; */
     text-shadow: 0 0 10px #A2B2F5;
     margin-bottom: 20px;
 }
@@ -111,12 +112,12 @@ h2{
 #macbookSection{
     /* height: 130vh; */
     height: 100vh;
-    width: 99vw;
+    width: 100vw;
     z-index: 10;
     /* position: relative; */
 }
 #macbookSection img{
-    width: 99vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -196,14 +197,14 @@ h2{
 } 
 
 #knowledgeSection{
-    /* margin-top: 35%; */
+    margin-top: 8rem;
 }
 #knowledge{
     font-size: 13vw;
 
 }
 #knowledgeImg{
-    height: 75vh;
+    width: 50vw;
 }
 
 .knowledgeContainer{
