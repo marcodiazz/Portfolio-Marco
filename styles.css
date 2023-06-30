@@ -81,7 +81,7 @@ h2{
 
 #description{
     font-size: 2.5rem;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0 10px #00142774;
     color: white;
     -webkit-text-stroke: 1.5px #001427;
     font-weight: 700;
@@ -486,9 +486,43 @@ a{
 #rrss>a{
     cursor: pointer; 
 }
+#mail{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
 
-/* @media (max-aspect-ratio: 16/9){
-    #contactSection{
-        margin-top: 15vh; 
+@media (max-width: 600px){
+
+    #screenScroll{
+        background: url('/img/macoswallpaper.jpeg') no-repeat left center fixed; 
     }
-} */
+   #aboutMeImg{
+    display: none;
+   }
+   .block1{
+    flex-direction: column;
+    width: 100%;
+   }
+   .block1>.img{
+    width: 90%;
+   } 
+   .block1>.textBlock{
+    width: 75%;
+    padding: 2rem;
+    background: #001427d3;
+
+   } 
+   .block1:nth-child(2){
+    flex-direction: column-reverse;
+   }
+   .title>p{
+    line-height: normal;   
+   }
+   .skills>h1{
+    font-size: 6vw;
+   }
+
+   .element{
+    border-radius: 5px;
+   }
+}
