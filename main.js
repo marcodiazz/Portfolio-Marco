@@ -49,8 +49,17 @@ gsap.from("#contactTitle",  {scrollTrigger:{
     scrub:1}
     , opacity:0, y:"-100%", duration:1})
 
-gsap.from(".codeLine",  {scrollTrigger:{
-    trigger:".codeForm",
-    end:"-30% 0%",
-    scrub:1}
-    , opacity:0, x:"-150%", duration:1})
+if(document.documentElement.clientWidth < 600){
+    gsap.from(".codeLine",  {scrollTrigger:{
+        trigger:".codeLine",
+        end:"0% 70%",
+        scrub:1}
+        , opacity:0, x:"-200%", duration:1})
+}
+else{
+    gsap.from(".codeLine",  {scrollTrigger:{
+        trigger:".codeForm",
+        end:"-30% 0%",
+        scrub:1}
+        , opacity:0, x:"-150%", duration:1})
+}
