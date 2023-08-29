@@ -371,8 +371,6 @@ a{
 
 }
 
-
-
 .codeForm{
     margin-top: 3em;
     margin-bottom: 5%;
@@ -388,7 +386,8 @@ a{
     padding-block: 15rem;
     /* flex-direction: column; */
 }
-.threeCircles{
+
+.threeCircles{ 
     position: absolute;
     top: 3%;
     left: 3%;
@@ -468,6 +467,13 @@ a{
     fill: white;
     margin-inline: 1em;
     cursor: pointer;
+   transition: 0.5s;
+
+}
+
+.social:hover{
+    transition: 0.5s;
+
 }
 #rrssText{
     color: white;
@@ -483,6 +489,32 @@ a{
     margin-top: 1rem;
     font-size: 2rem;
     color: white;
+    background-color: #ef4343;
+    padding: 1rem;
+    border-radius: 10px;
+    
+}
+
+#downloadCV{
+    font-family: Poppins;
+    margin-top: 2rem;
+    font-size: 2rem;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(199, 255, 251);
+    font-weight: 500;
+    color:#001427;
+    box-shadow:6px 6px #06d6a0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#downloadCV:hover{
+    width: 22rem;
+    box-shadow: 10px 10px #06d6a0;
+    transition: 0.5s;
 }
 
 @media (max-width: 600px){
@@ -572,9 +604,12 @@ a{
    .social{
     width: 20%;
    }
-   #mail{
+   #downloadCV{
     width: 100%;
     font-weight: 500;
     font-size: 1.2rem;
+   }
+   #downloadCV:hover{
+    width: 100%;
    }
 }

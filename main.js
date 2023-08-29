@@ -63,3 +63,9 @@ else{
         scrub:1}
         , opacity:0, x:"-150%", duration:1})
 }
+
+
+document.getElementById("downloadCV").addEventListener("click", function() {
+    var pdfUrl = "CV_MarcoDiaz.pdf";
+    window.open(pdfUrl, "_blank");
+});
