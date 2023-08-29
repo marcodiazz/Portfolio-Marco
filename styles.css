@@ -279,12 +279,6 @@ h2{
     font-size: 15vw;
 }
 
-.projects{
-
-
-}
-
-
 .glass{
     background: rgba(246, 246, 246, 0.1);
     box-shadow: 0 8px 32px 0 rgba(156, 156, 156, 0.35);
@@ -540,7 +534,11 @@ a{
     }
 
     #screenScroll{
-        background: url('/img/macoswallpaper.jpeg') no-repeat left center fixed; 
+        background: url('/img/macoswallpaper.jpg') no-repeat left center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         width: 100vw;
     }
    #aboutMeImg{
