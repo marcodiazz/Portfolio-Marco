@@ -63,7 +63,7 @@ h2{
 }
 
 .imgAndName img{
-    width: 35%;
+    width: 32%;
 }
 
 .info{
@@ -602,7 +602,7 @@ a{
    }
    .codeForm{
     width: 95%;
-    padding-block: 10rem;
+    padding-block: 8rem;
     box-shadow: none;
    }
    #code{
