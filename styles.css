@@ -340,11 +340,7 @@ h2{
     cursor: pointer;
 
 }
-/* .projectCard img:hover{
-    border-radius: 1rem;
-    transition: 0.5s;
-    
-} */
+
 
 .cardTitle{
     font-size: 2rem;
@@ -620,5 +616,9 @@ a{
    }
    #downloadCV:hover{
     width: 100%;
+   }
+
+   .circle{
+    display: none;
    }
 }
