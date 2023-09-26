@@ -35,6 +35,7 @@ body{
 
 section{
    margin-block: 30px;
+   padding-block: 100px;
 } 
 
 h2{
@@ -386,11 +387,11 @@ a{
     width: 60vw;
     /* height: 60vh; */
     background: #383690;
-    border-bottom: 4px solid white;
-    border-right: 4px solid white;
+    border: 8px solid var(--accent-color);
+    border-right: 8px solid var(--accent-color);
     border-radius: 1.5em;
     position: relative;
-    box-shadow: 20px 20px 0px rgb(165, 145, 255);
+    /* box-shadow: 20px 20px 0px rgb(165, 145, 255); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -530,11 +531,15 @@ a{
 
 @media (max-width: 600px){
 
+    .heroSection{
+        padding-top: 10vh;
+    }
     .imgAndName{
         flex-direction: column;
+
     }
     .imgAndName>img{
-        width: 60%;
+        width: 80%;
     }
     .info{
         display: flex;
@@ -551,11 +556,7 @@ a{
     }
 
     #screenScroll{
-        background: url('/img/macoswallpaper.jpg') no-repeat left center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        background: none; 
         width: 100vw;
     }
    #aboutMeImg{
@@ -572,12 +573,23 @@ a{
    .block1>.textBlock{
     width: 75%;
     padding: 2rem;
-    background: #001427d3;
+    background: var(--bg-color);
 
    } 
    .block1:nth-child(2){
     flex-direction: column-reverse;
    }
+   .knowledgeContainer{
+    flex-direction: column;
+   }
+
+    #knowledgeImg{
+     width: 90%;
+    }
+    .skills{
+     width: 90%;
+    }
+
    .title>p{
     line-height: normal;   
    }
