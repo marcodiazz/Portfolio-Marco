@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
     top: 0;
     left: 0;
     cursor: none;
+    --bg-color: #121212;
+    --text-color: #fff;
+    --accent-color: #EA80FC;
 }
 
 body{
@@ -13,6 +17,7 @@ body{
     color: black;
     width: 100vw;
     overflow-x: hidden;
+    background: var(--bg-color);
 }
 
 .circle {
@@ -29,7 +34,7 @@ body{
   }
 
 section{
-   background-image: none;
+   margin-block: 30px;
 } 
 
 h2{
@@ -37,9 +42,13 @@ h2{
     font-weight: 400;
 }
 
+.heroSection{
+    padding-top: 20vh;
+}
+
 .title{
     width: 100%;
-    margin-block: 10px;
+    margin-block: 30px;
     text-align: center;
 }
 
@@ -48,7 +57,6 @@ h2{
     /* font-size: 16rem; */
     font-weight: 700;
     color: white;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 #developer{
@@ -63,7 +71,7 @@ h2{
 }
 
 .imgAndName img{
-    width: 32%;
+    width: 35%;
 }
 
 .info{
@@ -73,26 +81,22 @@ h2{
     align-items: end;
 }
 #marco{
-    color: #001427;
-    font-size: 10rem;
+    color: var(--text-color);
+    font-size: 12rem;
     font-weight: 700;
 }
 #diaz{
-    color: white;
-    font-size: 10rem;
+    color: var(--accent-color);;
+    font-size: 12rem;
     font-weight: 700;
-    line-height: 100%;
-    -webkit-text-stroke: 1.5px #A2B2F5;
-    /* text-shadow: 0 0 10px #A2B2F5; */
-    text-shadow: 0 0 10px #A2B2F5;
-    margin-bottom: 20px;
+    line-height: 70%;
+    margin-bottom: 40px;
 }
 
 #description{
     font-size: 2rem;
     /* text-shadow: 0 0 10px #00142774; */
     color: white;
-    -webkit-text-stroke: 1.5px #001427;
     font-weight: 700;
 }
 
@@ -117,7 +121,9 @@ h2{
     flex-direction: column;
     align-items: center;
 }
-
+.aboutMeContainer{
+    background: var(--text-color);
+}
 #macbookSection{
     /* height: 130vh; */
     height: 100vh;
@@ -205,6 +211,7 @@ h2{
 }
 #aboutMe{
     font-size: 15vw;
+    color: var(--bg-color);
 } 
 
 #knowledgeSection{
@@ -229,13 +236,11 @@ h2{
 }
 
 .skills>h1{
-    color: #1c1c1c;
+    color: var(--text-color);
     font-size: 6rem;
 }
 
 #frameworks{
-    /* width: 24rem; */
-    /* height: 18rem; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -269,25 +274,30 @@ h2{
 
 
 .element:nth-child(1){
-    background-color: rgb(255, 128, 24);
+    background-color: rgb(255, 155, 73);
 } 
 .element:nth-child(2){
-    background-color: rgb(228, 42, 42);
+    background-color: rgb(255, 110, 110);
 } 
 .element:nth-child(3){
-    background-color: rgb(38, 136, 216);
+    background-color: rgb(104, 187, 255);
 } 
 .element:nth-child(4){
-    background-color: rgb(99, 227, 44);
+    background-color: rgb(149, 255, 104);
 } 
 .element:nth-child(6){
-    background-color: rgb(248, 223, 111);
+    background-color: rgb(205, 164, 255);
 } 
 
 /* EDUCATION */
 
+.educationBlock{
+    background: var(--text-color);
+}
+
 #projectTitle{
     font-size: 15vw;
+    color: var(--bg-color);
 }
 
 .glass{
@@ -305,8 +315,6 @@ h2{
 }
 
 .projects{
-
-    background: url('/img/esferasblancas.png') no-repeat left center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -377,10 +385,12 @@ a{
     margin-bottom: 5%;
     width: 60vw;
     /* height: 60vh; */
-    background: #001427;
+    background: #383690;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
     border-radius: 1.5em;
     position: relative;
-    box-shadow: 10px 10px 40px #4f4f4f;
+    box-shadow: 20px 20px 0px rgb(165, 145, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -464,7 +474,7 @@ a{
 }
 .social{
     width: 4em;
-    color: white;
+    color: var(--text-color);
     fill: white;
     margin-inline: 1em;
     cursor: pointer;
@@ -477,7 +487,7 @@ a{
 
 }
 #rrssText{
-    color: white;
+    color: var(--text-color);
     font-size: 2em;
     font-weight: 500;
     width: 100%;
