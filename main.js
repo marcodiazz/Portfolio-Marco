@@ -8,9 +8,9 @@ gsap.from("#description", {opacity:0, x:"100%", duration:1.5})
 // about me
 gsap.from("#aboutMe",  {scrollTrigger:{
     trigger:"#aboutMe",
-    start:"center center",
+    start:"bottom center",
     scrub: true}
-    , opacity:0, y:"-100%", duration:1})
+    , opacity:0, y:"-180%", duration:1})
 
 let tl = gsap.timeline({scrollTrigger:{
     trigger:"#macbookSection",
@@ -76,7 +76,7 @@ const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
 
 const colors = [
-  "#A2B2F530"
+  "#EA80FC"
 ];
 
 circles.forEach(function (circle, index) {
