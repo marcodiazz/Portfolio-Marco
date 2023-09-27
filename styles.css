@@ -36,6 +36,8 @@ body{
 section{
    margin-block: 30px;
    padding-block: 100px;
+ 
+
 } 
 
 h2{
@@ -86,12 +88,31 @@ h2{
     font-size: 12rem;
     font-weight: 700;
 }
+.header {
+	text-align: center;
+	color: #f35626;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 8s infinite linear alternate;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-180deg);
+  }
+}
+
 #diaz{
     color: var(--accent-color);;
     font-size: 12rem;
     font-weight: 700;
-    line-height: 70%;
+    line-height: 100%;
     margin-bottom: 40px;
+    margin-top: -50px;
 }
 
 #description{
