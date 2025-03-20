@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/colorClash/(.*)",
+        "destination": "https://color-clash-sable.vercel.app/$1"
+      }
+    ]
+  }
